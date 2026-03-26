@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "Shivam Ghodake",
   description: "Software Engineer portfolio of Shivam Ghodake — projects, skills, experience, publications, and contact.",
   keywords: ["Shivam Ghodake", "Software Engineer", "VIT Pune", "Portfolio", "Full Stack", "Java", "Python"],
+  icons: {
+    icon: "shivam.jpg",
+  },
   authors: [{ name: "Shivam Ghodake" }],
   openGraph: {
     title: "Shivam Ghodake | Software Engineer",
