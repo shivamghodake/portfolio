@@ -30,7 +30,7 @@ const ExperienceLeadership = () => {
     {
       title: "Software Engineer Intern",
       org: "SKS Enterprises",
-      dates: "Jan 2026 – Present",
+      dates: "Jan 2026 – May 2026",
       highlights: [
         "Developing and improving features for production systems with a focus on reliability.",
         "Collaborating with the team to ship clean, maintainable engineering work.",

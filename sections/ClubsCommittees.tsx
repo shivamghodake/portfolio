@@ -30,7 +30,7 @@ const ClubsCommittees = () => {
   };
 
   const abhivriddhi: ClubItem[] = [
-    { title: "Chairperson", org: "Abhivriddhi – Student Training & Development Committee, VIT Pune", dates: "Aug 2025 – Present", image: "/abhivriddhi.png" },
+    { title: "Chairperson", org: "Abhivriddhi – Student Training & Development Committee, VIT Pune", dates: "Aug 2025 – Jun 2026", image: "/abhivriddhi.png" },
     { title: "Management Executive", org: "Abhivriddhi – Student Training & Development Committee, VIT Pune", dates: "Jul 2024 – Jul 2025", image: "/abhivriddhi.png" },
     { title: "Operations and Management Head", org: "Abhivriddhi – Student Training & Development Committee, VIT Pune", dates: "Jun 2023 – Jul 2024", image: "/abhivriddhi.png" },
   ];

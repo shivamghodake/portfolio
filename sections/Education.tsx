@@ -36,10 +36,10 @@ const Education = () => {
       institution: "Vishwakarma Institute of Technology, Pune",
       degree: "BTech — Information Technology",
       dates: "Nov 2022 – Jun 2026",
-      score: "8.63",
+      score: "8.88",
       scoreLabel: "CGPA",
       icon: "🎓",
-      current: true,
+      // current: true,
     },
     {
       institution: "Trimurti Secondary & Higher Secondary School, Ghogargaon",

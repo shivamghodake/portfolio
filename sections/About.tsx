@@ -24,8 +24,8 @@ const About = () => {
 
   const tags = [
     { label: "Final Year BTech IT · VIT Pune", accent: true },
-    { label: "SWE Intern @ SKS Enterprises", accent: true},
-    { label: "Chairperson @ Abhivriddhi", accent: true },
+    { label: "Former SWE Intern @ SKS Enterprises", accent: true },
+    { label: "Former Chairperson @ Abhivriddhi", accent: true },
   ];
 
   const socialLinks = [
