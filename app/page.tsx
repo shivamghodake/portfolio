@@ -11,6 +11,7 @@ import ClubsCommittees from "@/sections/ClubsCommittees";
 import Publications from "@/sections/Publications";
 import Contact from "@/sections/Contact";
 import { Roboto } from "next/font/google";
+import ScrollToTop from "@/components/ScrollToTop";
 
 /* ─────────────────────────────────────────────
    NAV ITEMS
@@ -378,6 +379,7 @@ export default function Home() {
         </div>
 
         <Footer />
+        <ScrollToTop />
       </div>
     </main>
   );

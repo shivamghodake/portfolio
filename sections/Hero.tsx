@@ -5,10 +5,10 @@ import { useEffect, useRef, useState } from "react";
 const ROLES = ["BTech Student", "Problem Solver", "Learner", "Software Engineer"];
 
 const Hero = () => {
-  const [roleIdx,    setRoleIdx]    = useState(0);
-  const [displayed,  setDisplayed]  = useState("");
-  const [deleting,   setDeleting]   = useState(false);
-  const [visible,    setVisible]    = useState(false);
+  const [roleIdx, setRoleIdx] = useState(0);
+  const [displayed, setDisplayed] = useState("");
+  const [deleting, setDeleting] = useState(false);
+  const [visible, setVisible] = useState(false);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   /* mount fade */
@@ -200,7 +200,7 @@ const Hero = () => {
               WebkitTextFillColor: "transparent",
               backgroundClip: "text",
             }}>
-              Shivam Ghodake
+              Shivam
             </span>
           </h1>
 
@@ -287,21 +287,21 @@ const Hero = () => {
           {/* Scroll cue */}
           <div
             className={`hero-fade ${visible ? "show" : ""}`}
-            style={{ transitionDelay: "450ms" }}
+            style={{ transitionDelay: "450ms", marginTop: "32px" }}
           >
             <div
               style={{ cursor: "pointer" }}
               onClick={() => document.querySelector("#about")?.scrollIntoView({ behavior: "smooth" })}
             >
               <p style={{
-                fontSize: "9px", fontWeight: 700, letterSpacing: "0.3em", textTransform: "uppercase",
-                color: "rgba(255,255,255,0.18)", marginBottom: "8px",
+                fontSize: "10px", fontWeight: 700, letterSpacing: "0.3em", textTransform: "uppercase",
+                color: "rgba(255,255,255,0.4)", marginBottom: "8px",
               }}>
                 SCROLL
               </p>
               <div className="scroll-cue-arrow" style={{ display: "flex", justifyContent: "center" }}>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M8 2v12M3 9l5 5 5-5" stroke="rgba(99,210,255,0.45)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M8 2v12M3 9l5 5 5-5" stroke="rgba(99,210,255,0.7)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </div>
             </div>

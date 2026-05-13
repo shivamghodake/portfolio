@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import { ExternalLink, Briefcase, Code2 } from "lucide-react";
+import { ExternalLink, Briefcase, Code2, FileText } from "lucide-react";
 
 const ExperienceLeadership = () => {
   const [visible, setVisible] = useState(false);
@@ -38,6 +38,9 @@ const ExperienceLeadership = () => {
       label: "Engineering Internship",
       type: "engineering",
       certificate: "https://drive.google.com/file/d/1a3mep_UqJyamkATtbPP3cGJeW5PxQ5ve/view?usp=sharing",
+      certificateLabel: "Offer Letter",
+      letter: "https://drive.google.com/file/d/1cM_uYCM98oGpJydT6rD7SVV6hAk3mnsu/view?usp=drive_link",
+      letterLabel: "Completion Certificate",
     },
     {
       title: "Project Intern",
@@ -49,7 +52,10 @@ const ExperienceLeadership = () => {
       ],
       label: "Sponsored Project",
       type: "project",
-      certificate: "https://drive.google.com/file/d/1WN5RqWGhIWWdGDVLnqaanAIeNUZuk1fu/view?usp=sharing",
+      // certificate: "https://drive.google.com/file/d/1WN5RqWGhIWWdGDVLnqaanAIeNUZuk1fu/view?usp=sharing",
+      // certificateLabel: "Certificate",
+      letter: "https://drive.google.com/file/d/1BkJjHu13rTNop64384-GNrlqfPOVISc5/view?usp=drive_link",
+      letterLabel: "Completion Certificate",
     },
     {
       title: "Project Intern",
@@ -62,6 +68,9 @@ const ExperienceLeadership = () => {
       label: "Sponsored Project",
       type: "project",
       certificate: null,
+      certificateLabel: "Certificate",
+      letter: "https://drive.google.com/file/d/1HVfNnwFC9ysjChFoC-eqGvW99zcl6mVD/view?usp=sharing",
+      letterLabel: "Completion Certificate",
     },
   ];
 
@@ -115,6 +124,17 @@ const ExperienceLeadership = () => {
           transition: all 0.2s ease;
         }
         .exp-cert-btn:hover { background: rgba(59,130,246,0.18); color: #fff; border-color: rgba(99,210,255,0.4); }
+
+        .exp-letter-btn {
+          display: inline-flex; align-items: center; gap: 0.5rem;
+          font-size: 0.75rem; font-weight: 600; letter-spacing: 0.03em;
+          padding: 0.4rem 0.9rem; border-radius: 8px;
+          border: 1px solid rgba(16,185,129,0.25);
+          color: rgba(110,231,183,0.85); background: rgba(16,185,129,0.08);
+          transition: all 0.2s ease;
+          text-decoration: none;
+        }
+        .exp-letter-btn:hover { background: rgba(16,185,129,0.18); color: #fff; border-color: rgba(110,231,183,0.4); }
 
         .exp-underline { height: 2px; background: linear-gradient(90deg, #3b82f6, #06b6d4, transparent); border-radius: 99px; width: 0; transition: width 0.6s ease; }
         .exp-underline.open { width: 3.5rem; }
@@ -206,13 +226,21 @@ const ExperienceLeadership = () => {
                         ))}
                       </ul>
 
-                      {/* Certificate */}
-                      {r.certificate && (
-                        <a href={r.certificate} target="_blank" rel="noopener noreferrer" className="exp-cert-btn">
-                          <ExternalLink size={12} />
-                          View Certificate
-                        </a>
-                      )}
+                      {/* Certificate & Letter */}
+                      <div className="flex flex-wrap gap-2">
+                        {r.certificate && (
+                          <a href={r.certificate} target="_blank" rel="noopener noreferrer" className="exp-cert-btn">
+                            <ExternalLink size={12} />
+                            {r.certificateLabel || "Certificate"}
+                          </a>
+                        )}
+                        {r.letter && (
+                          <a href={r.letter} target="_blank" rel="noopener noreferrer" className="exp-letter-btn">
+                            <FileText size={12} />
+                            {r.letterLabel || "Letter"}
+                          </a>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </article>
