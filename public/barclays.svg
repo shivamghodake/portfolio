@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Barclays-inspired eagle emblem -->
+  <defs>
+    <linearGradient id="eagle-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00aeef"/>
+      <stop offset="100%" stop-color="#0072ce"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield shape -->
+  <path d="M256 48 L420 120 L420 300 Q420 420 256 472 Q92 420 92 300 L92 120 Z" 
+        fill="none" stroke="url(#eagle-grad)" stroke-width="12" opacity="0.3"/>
+  <!-- Stylized spread eagle -->
+  <g transform="translate(256,240)" fill="url(#eagle-grad)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="28" ry="55"/>
+    <!-- Head -->
+    <circle cx="0" cy="-50" r="20"/>
+    <!-- Beak -->
+    <path d="M20,-52 L38,-48 L20,-44 Z"/>
+    <!-- Left wing -->
+    <path d="M-25,-10 Q-90,-80 -140,-100 Q-120,-70 -100,-50 Q-80,-30 -25,5 Z"/>
+    <path d="M-25,-20 Q-100,-100 -150,-130 Q-130,-90 -110,-70 Q-80,-40 -25,-5 Z"/>
+    <path d="M-20,-30 Q-90,-120 -130,-160 Q-115,-120 -95,-90 Q-70,-55 -20,-15 Z"/>
+    <!-- Right wing (mirrored) -->
+    <path d="M25,-10 Q90,-80 140,-100 Q120,-70 100,-50 Q80,-30 25,5 Z"/>
+    <path d="M25,-20 Q100,-100 150,-130 Q130,-90 110,-70 Q80,-40 25,-5 Z"/>
+    <path d="M20,-30 Q90,-120 130,-160 Q115,-120 95,-90 Q70,-55 20,-15 Z"/>
+    <!-- Tail feathers -->
+    <path d="M-15,70 Q-25,110 -35,130 Q0,105 0,105 Z"/>
+    <path d="M0,75 Q0,115 0,135 Q10,110 10,110 Z"/>
+    <path d="M15,70 Q25,110 35,130 Q0,105 0,105 Z"/>
+    <!-- Talons -->
+    <path d="M-18,72 Q-30,85 -40,95 M-18,72 Q-25,90 -28,100" stroke="url(#eagle-grad)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M18,72 Q30,85 40,95 M18,72 Q25,90 28,100" stroke="url(#eagle-grad)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

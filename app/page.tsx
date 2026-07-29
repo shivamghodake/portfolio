@@ -208,7 +208,7 @@ function Navbar() {
 
             {/* Desktop Resume */}
             <a
-              href="https://drive.google.com/file/d/1HJPS0oSPGPD4uB_neHOHpuaYmasBEXJd/view?usp=sharing"
+              href="https://drive.google.com/file/d/1TajGEYfi0bO2yTdjHXxbrrJdj-PQ7m-v/view?usp=sharing"
               target="_blank" rel="noreferrer"
               className="nav-resume nav-desktop"
             >
@@ -262,7 +262,7 @@ function Navbar() {
 
           <div style={{ padding: "12px 20px 18px" }}>
             <a
-              href="https://drive.google.com/file/d/1HJPS0oSPGPD4uB_neHOHpuaYmasBEXJd/view?usp=sharing"
+              href="https://drive.google.com/file/d/1TajGEYfi0bO2yTdjHXxbrrJdj-PQ7m-v/view?usp=sharing"
               target="_blank" rel="noreferrer"
               style={{
                 display: "flex", alignItems: "center", justifyContent: "center", gap: "8px",

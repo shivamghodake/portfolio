@@ -11,15 +11,15 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Shivam Ghodake",
-  description: "Software Engineer portfolio of Shivam Ghodake — projects, skills, experience, publications, and contact.",
-  keywords: ["Shivam Ghodake", "Software Engineer", "VIT Pune", "Portfolio", "Full Stack", "Java", "Python"],
+  description: "Software Engineer at Barclays | BTech IT Graduate from VIT Pune — projects, skills, experience, publications, and contact.",
+  keywords: ["Shivam Ghodake", "Software Engineer", "Barclays", "VIT Pune", "Portfolio", "Full Stack", "Java", "Python"],
   icons: {
     icon: "shivam.jpg",
   },
   authors: [{ name: "Shivam Ghodake" }],
   openGraph: {
-    title: "Shivam Ghodake | Software Engineer",
-    description: "Software Engineer portfolio — projects, skills, experience, and contact.",
+    title: "Shivam Ghodake | Software Engineer at Barclays",
+    description: "Software Engineer at Barclays — BTech IT Graduate from VIT Pune. Projects, skills, experience, and contact.",
     type: "website",
   },
 };

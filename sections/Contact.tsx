@@ -24,7 +24,7 @@ const Contact = () => {
   const email = "shivam.ghodake22@gmail.com";
   const github = "https://github.com/shivamghodake";
   const linkedIn = "https://www.linkedin.com/in/shivamghodake";
-  const resumeUrl = "https://drive.google.com/file/d/1HJPS0oSPGPD4uB_neHOHpuaYmasBEXJd/view?usp=sharing";
+  const resumeUrl = "https://drive.google.com/file/d/1TajGEYfi0bO2yTdjHXxbrrJdj-PQ7m-v/view?usp=sharing";
 
   const links = [
     {

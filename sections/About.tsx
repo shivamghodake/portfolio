@@ -23,8 +23,8 @@ const About = () => {
   };
 
   const tags = [
-    { label: "Final Year BTech IT · VIT Pune", accent: true },
-    { label: "Former SWE Intern @ SKS Enterprises", accent: true },
+    { label: "BTech IT Graduate · VIT Pune", accent: true },
+    { label: "Software Engineer @ Barclays", accent: true },
     { label: "Former Chairperson @ Abhivriddhi", accent: true },
   ];
 
@@ -234,13 +234,13 @@ const About = () => {
                   <span className="about-availability-dot" />
                   <p className="text-xs font-semibold tracking-[0.2em] uppercase"
                     style={{ color: "rgba(99,210,255,0.6)" }}>
-                    Open to opportunities
+                    Let&apos;s Build Something
                   </p>
                 </div>
 
                 <p className="text-sm leading-relaxed mb-4"
                   style={{ color: "rgba(255,255,255,0.45)" }}>
-                  Whether it&apos;s a collaboration, a challenging role, or just a good tech conversation, I&apos;d love to hear from you.
+                  Always interested in meaningful collaborations, open-source contributions, and great tech conversations.
                 </p>
 
                 <a
@@ -252,7 +252,7 @@ const About = () => {
                     color: "#93c5fd",
                   }}
                 >
-                  Let&apos;s Connect
+                  Get In Touch
                   <span className="about-cta-arrow">→</span>
                 </a>
               </div>

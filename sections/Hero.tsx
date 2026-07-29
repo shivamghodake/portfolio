@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const ROLES = ["BTech Student", "Problem Solver", "Learner", "Software Engineer"];
+const ROLES = ["Software Engineer", "Problem Solver", "Learner", "Graduate"];
 
 const Hero = () => {
   const [roleIdx, setRoleIdx] = useState(0);
@@ -233,7 +233,7 @@ const Hero = () => {
               transitionDelay: "200ms",
             }}
           >
-            I am a full-stack software developer focused on building scalable systems and solving real-world problems through efficient, production-ready applications with strong emphasis on system design, backend engineering, and performance optimization.
+            I am a Software Engineer at Barclays and a BTech IT graduate from VIT Pune, focused on building scalable systems and solving real-world problems.
           </p>
 
           {/* CTA Buttons */}
@@ -254,7 +254,7 @@ const Hero = () => {
               View Projects →
             </a>
             <a
-              href="https://drive.google.com/file/d/1HJPS0oSPGPD4uB_neHOHpuaYmasBEXJd/view?usp=sharing"
+              href="https://drive.google.com/file/d/1TajGEYfi0bO2yTdjHXxbrrJdj-PQ7m-v/view?usp=sharing"
               target="_blank" rel="noreferrer"
               className="hero-btn-ghost"
             >

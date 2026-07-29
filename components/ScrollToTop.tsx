@@ -47,6 +47,7 @@ export default function ScrollToTop() {
           width: ${size}px;
           height: ${size}px;
           border-radius: 50%;
+          overflow: hidden;
           border: none;
           cursor: pointer;
           display: flex;
@@ -151,8 +152,8 @@ export default function ScrollToTop() {
         {/* SVG Progress Ring */}
         <svg
           className="scroll-top-ring"
-          width={size}
-          height={size}
+          width="100%"
+          height="100%"
           viewBox={`0 0 ${size} ${size}`}
         >
           {/* Track */}

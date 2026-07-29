@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const resumeUrl =
-    "https://drive.google.com/file/d/1HJPS0oSPGPD4uB_neHOHpuaYmasBEXJd/view?usp=sharing";
+    "https://drive.google.com/file/d/1TajGEYfi0bO2yTdjHXxbrrJdj-PQ7m-v/view?usp=sharing";
 
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
